@@ -48,7 +48,7 @@ const Rifd = () => {
 
   return (
     <div>
-      <h2>Rifd</h2>
+      <h2>RFID Infomation</h2>
       <div>
         <p>
           <strong></strong> {nameValue}
