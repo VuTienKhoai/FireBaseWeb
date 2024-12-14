@@ -32,7 +32,7 @@ const Rifd = () => {
           );
 
           if (!checked) {
-            const updatedHistory = [newHistory, ...prev]?.slice(0, 3); // Cắt lại lịch sử nếu cần
+            const updatedHistory = [newHistory, ...prev]?.slice(0, 20); // Cắt lại lịch sử nếu cần
             localStorage.setItem("Rifd", JSON.stringify(updatedHistory)); // Lưu vào LocalStorage
             return updatedHistory;
           }
